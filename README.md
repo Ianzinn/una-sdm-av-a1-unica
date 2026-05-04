@@ -23,16 +23,6 @@ API REST desenvolvida em ASP.NET Core para gerenciamento de equipamentos (ativos
 
 **Pré-requisitos:** .NET 9 SDK instalado.
 
-```bash
-# Restaurar dependências
-dotnet restore
-
-# Aplicar migrações e criar o banco
-dotnet ef database update
-
-# Executar a aplicação
-dotnet run
-```
 
 A API estará disponível em `https://localhost:{porta}`.  
 O Swagger UI pode ser acessado em `https://localhost:{porta}/swagger`.
